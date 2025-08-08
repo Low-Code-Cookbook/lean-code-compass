@@ -92,7 +92,7 @@ const Framework = () => {
         <div className="mt-24">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Three Ways to Apply This Framework
+              Apply this framework
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Use the cookbook to make smarter technology decisions at every stage of your journey.
