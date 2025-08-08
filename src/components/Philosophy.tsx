@@ -3,54 +3,59 @@ import { Zap, Brain, Rocket } from "lucide-react";
 
 const Philosophy = () => {
   return (
-    <section className="py-24 bg-gradient-subtle">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-8">
-            Code Leads to Code
+            The Hard Truth I Discovered
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-            Every solution creates complexity. Every tool demands maintenance. 
-            Our AI assistant helps you start simple and stay nimble with intelligent recommendations.
+            "Code leads to code." Every solution I added created three new problems. 
+            Every tool demanded maintenance. I was building complexity, not solutions. 
+            That's when I realized the power wasn't in the perfect tech stack—it was in starting simple.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto items-center mb-16">
           <div>
-            <h3 className="text-3xl font-bold mb-6">The Problem</h3>
+            <h3 className="text-3xl font-playfair font-bold mb-6">What I Learned the Hard Way</h3>
             <div className="space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                Non-technical founders delegate technology decisions, losing control of their most 
-                critical business infrastructure. They end up with over-engineered solutions that 
-                drain resources and slow growth.
+                In my first company, I delegated every tech decision to developers. We ended up with 
+                a Frankenstein stack that worked but was impossible to maintain or scale.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Technical founders often fall into the opposite trap—building custom solutions 
-                when simple alternatives exist, creating unnecessary complexity.
+                In my second company, I went the opposite direction—custom everything. I thought building 
+                from scratch meant more control. Instead, I created a complexity monster that consumed 
+                all our resources.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                That's when I developed this framework. Now, with AI as a guide, founders can make 
+                these decisions confidently without repeating my mistakes.
               </p>
             </div>
           </div>
 
-          <Card className="p-8 bg-card shadow-medium">
-            <h4 className="text-xl font-bold mb-4 text-primary">
-              Common Mistakes
+          <Card className="p-8 bg-background border border-border shadow-soft">
+            <h4 className="text-xl font-playfair font-bold mb-4 text-primary">
+              The Mistakes That Taught Me
             </h4>
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Choosing tools based on features, not fit</span>
+                <span>Choosing the "best" tool instead of the right tool</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Building when you should buy</span>
+                <span>Building custom when simple solutions existed</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Optimizing for scale you don't have</span>
+                <span>Planning for scale I didn't have (and might never need)</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Delegating without understanding</span>
+                <span>Letting complexity creep in "just this once"</span>
               </li>
             </ul>
           </Card>
@@ -89,14 +94,15 @@ const Philosophy = () => {
         </div>
 
         <div className="text-center">
-          <Card className="p-8 max-w-4xl mx-auto bg-primary/5 border-primary/20">
+          <Card className="p-8 max-w-4xl mx-auto bg-background border border-primary/20 shadow-soft">
             <h3 className="text-2xl font-playfair font-bold mb-4 text-primary">
-              The Low Code Cookbook Tool
+              The Low Code Cookbook Today
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              This isn't just a guide—it's an intelligent tool powered by AI that helps you evaluate your entire tech stack. 
-              Whether you're technical or not, our digital assistant provides personalized recommendations, 
-              scores your current solutions, and guides you toward simpler, more effective technology decisions.
+              What started as my personal framework has become an AI-powered tool that helps founders 
+              evaluate their entire tech stack. Whether you're technical or not, our digital assistant 
+              provides personalized recommendations, scores your current solutions, and guides you toward 
+              the simplicity that actually scales.
             </p>
           </Card>
         </div>

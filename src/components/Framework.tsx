@@ -32,11 +32,12 @@ const Framework = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-            The 3-Score Framework
+            How I Learned to Score Technology
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our AI assistant evaluates every technology decision on these three critical dimensions. 
-            Stop delegating tech choices—start making informed decisions with digital guidance.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            Through countless mistakes and successes, I discovered that every technology decision 
+            comes down to three simple questions. Now our AI assistant uses this same framework 
+            to help you evaluate your tech stack.
           </p>
         </div>
 
@@ -67,14 +68,14 @@ const Framework = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <Card className="p-8 max-w-4xl mx-auto bg-gradient-subtle border-primary/20">
-            <h3 className="text-2xl font-bold mb-4">
-              Why This Framework Works
+          <Card className="p-8 max-w-4xl mx-auto bg-background border border-border shadow-soft">
+            <h3 className="text-2xl font-playfair font-bold mb-4">
+              Why This Framework Changed Everything
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Most founders delegate technology decisions without understanding their long-term impact. 
-              This framework empowers you to evaluate every tool, platform, and solution objectively. 
-              The result? Simpler stacks, lower costs, and more agile businesses.
+              I used to make technology decisions based on features, hype, or what other companies were using. 
+              This simple scoring system forced me to think critically about each choice. The result? 
+              Simpler stacks, lower costs, and businesses that could actually scale without drowning in complexity.
             </p>
           </Card>
         </div>

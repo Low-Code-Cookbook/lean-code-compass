@@ -4,11 +4,10 @@ import { ArrowRight, Mail } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-subtle overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 bg-gradient-hero opacity-5"></div>
-      <div className="absolute -top-40 -right-40 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
+    <section className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden">
+      {/* Subtle background decoration */}
+      <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
@@ -25,8 +24,9 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            An intelligent tool and AI assistant that helps founders evaluate their technology stacks. 
-            Make informed decisions with our 3-score framework: utility, scalability, and expertise needed.
+            As a founder, I learned the hard way that every tech decision compounds. 
+            After years of building companies, I created a simple framework to help founders 
+            like you make smarter technology choices with AI assistance.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
