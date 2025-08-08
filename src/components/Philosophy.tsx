@@ -92,20 +92,6 @@ const Philosophy = () => {
             </p>
           </Card>
         </div>
-
-        <div className="text-center">
-          <Card className="p-8 max-w-4xl mx-auto bg-background border border-primary/20 shadow-soft">
-            <h3 className="text-2xl font-playfair font-bold mb-4 text-primary">
-              The Low Code Cookbook Today
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              What started as my personal framework has become an AI-powered tool that helps founders 
-              evaluate their entire tech stack. Whether you're technical or not, our digital assistant 
-              provides personalized recommendations, scores your current solutions, and guides you toward 
-              the simplicity that actually scales.
-            </p>
-          </Card>
-        </div>
       </div>
     </section>
   );
