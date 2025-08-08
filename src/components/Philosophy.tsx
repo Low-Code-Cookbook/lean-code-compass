@@ -6,12 +6,12 @@ const Philosophy = () => {
     <section className="py-24 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-8">
             Code Leads to Code
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed mb-8">
             Every solution creates complexity. Every tool demands maintenance. 
-            The secret isn't finding the perfect tech stack—it's starting simple and staying nimble.
+            Our AI assistant helps you start simple and stay nimble with intelligent recommendations.
           </p>
         </div>
 
@@ -90,13 +90,13 @@ const Philosophy = () => {
 
         <div className="text-center">
           <Card className="p-8 max-w-4xl mx-auto bg-primary/5 border-primary/20">
-            <h3 className="text-2xl font-bold mb-4 text-primary">
-              The Low Code Cookbook Approach
+            <h3 className="text-2xl font-playfair font-bold mb-4 text-primary">
+              The Low Code Cookbook Tool
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              This isn't about avoiding code entirely—it's about being intentional with every technical decision. 
-              Whether you're technical or not, you should understand the true cost and impact of your technology choices. 
-              The cookbook provides the framework, examples, and wisdom to make those decisions confidently.
+              This isn't just a guide—it's an intelligent tool powered by AI that helps you evaluate your entire tech stack. 
+              Whether you're technical or not, our digital assistant provides personalized recommendations, 
+              scores your current solutions, and guides you toward simpler, more effective technology decisions.
             </p>
           </Card>
         </div>

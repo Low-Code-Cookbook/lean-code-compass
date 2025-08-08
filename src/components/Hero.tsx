@@ -18,16 +18,15 @@ const Hero = () => {
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-hero bg-clip-text text-transparent leading-tight">
+          <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-8 text-foreground leading-tight">
             The Low Code
             <br />
             Cookbook
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            A founder's guide to making smart technology decisions. 
-            Score every solution on utility, scalability, and expertise needed. 
-            Build more with less complexity.
+            An intelligent tool and AI assistant that helps founders evaluate their technology stacks. 
+            Make informed decisions with our 3-score framework: utility, scalability, and expertise needed.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -46,7 +45,7 @@ const Hero = () => {
           
           <div className="text-center">
             <p className="text-muted-foreground text-sm mb-4">
-              Join 500+ founders building smarter
+              Join 500+ founders making smarter tech decisions
             </p>
             <div className="flex justify-center items-center gap-8 opacity-60">
               <div className="text-xs font-medium">Trusted by founders at</div>
