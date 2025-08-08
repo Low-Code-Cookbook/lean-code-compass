@@ -57,38 +57,6 @@ const Philosophy = () => {
             </ul>
           </Card>
         </div>
-
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <Card className="p-6 text-center shadow-soft hover:shadow-medium transition-all duration-300">
-            <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mx-auto mb-4">
-              <Zap className="w-6 h-6 text-white" />
-            </div>
-            <h4 className="text-lg font-bold mb-3">Start Simple</h4>
-            <p className="text-muted-foreground text-sm">
-              Begin with the minimum viable tech stack. Add complexity only when absolutely necessary.
-            </p>
-          </Card>
-
-          <Card className="p-6 text-center shadow-soft hover:shadow-medium transition-all duration-300">
-            <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mx-auto mb-4">
-              <Brain className="w-6 h-6 text-white" />
-            </div>
-            <h4 className="text-lg font-bold mb-3">AI + SaaS Revolution</h4>
-            <p className="text-muted-foreground text-sm">
-              AI eliminates 20 years of SaaS complexity. Do more with less code, less cost, less maintenance.
-            </p>
-          </Card>
-
-          <Card className="p-6 text-center shadow-soft hover:shadow-medium transition-all duration-300">
-            <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mx-auto mb-4">
-              <Rocket className="w-6 h-6 text-white" />
-            </div>
-            <h4 className="text-lg font-bold mb-3">Stay Nimble</h4>
-            <p className="text-muted-foreground text-sm">
-              Force simple solutions. Question every dependency. Keep your business agile and adaptable.
-            </p>
-          </Card>
-        </div>
       </div>
     </section>
   );
