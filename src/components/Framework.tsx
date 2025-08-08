@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Target, TrendingUp, Wrench, Lightbulb, BarChart3 } from "lucide-react";
+import { Target, TrendingUp, Wrench, Rocket, MapPin, Route } from "lucide-react";
 
 const Framework = () => {
   const criteria = [
@@ -29,16 +29,22 @@ const Framework = () => {
 
   const applications = [
     {
-      icon: Lightbulb,
-      title: "Plan a Low-Code Stack",
-      description: "Perfect for new and non-tech founders who need to plan a technology stack that meets their current needs without over-engineering.",
-      benefit: "Start simple, scale smart"
+      icon: Rocket,
+      title: "Initial Stack",
+      description: "Good for new startups who need to make smart technology choices from day one without over-engineering or under-planning.",
+      benefit: "Start right, scale smart"
     },
     {
-      icon: BarChart3,
-      title: "Stack Evaluation",
-      description: "For founders with existing technology stacks who need a systematic way to score past decisions and plan for version 2.",
-      benefit: "Learn from the past, build better"
+      icon: MapPin,
+      title: "Where Are We",
+      description: "Good for tech teams with some traction that need to evaluate what worked and plan for version 2 of their stack.",
+      benefit: "Learn, assess, evolve"
+    },
+    {
+      icon: Route,
+      title: "Roadmap",
+      description: "We have a stack and want to find ways to get more out of it, drive down complexity and add in nimble patterns.",
+      benefit: "Optimize, simplify, accelerate"
     }
   ];
 
@@ -93,7 +99,7 @@ const Framework = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {applications.map((application, index) => {
               const Icon = application.icon;
               return (
