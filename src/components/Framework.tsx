@@ -92,10 +92,10 @@ const Framework = () => {
         <div className="mt-24">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Applications
+              Three Ways to Apply This Framework
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Three ways this framework can transform how you approach technology decisions.
+              Use the cookbook to make smarter technology decisions at every stage of your journey.
             </p>
           </div>
 
