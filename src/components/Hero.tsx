@@ -34,7 +34,7 @@ const Hero = () => {
               <p className="text-muted-foreground mb-4">
                 It's coming soon! To get access, just subscribe to my newsletter.
               </p>
-              <Button variant="default" size="lg" className="shadow-medium hover:shadow-large transition-all duration-300" asChild>
+              <Button variant="default" size="lg" className="bg-black hover:bg-black/90 shadow-medium hover:shadow-large transition-all duration-300" asChild>
                 <a href="https://lowcodecto.com/subscribe" target="_blank" rel="noopener noreferrer">
                   <Mail className="w-4 h-4 mr-2" />
                   Subscribe to Newsletter
