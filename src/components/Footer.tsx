@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Low Code Cookbook
+            © 2025 Low Code Cookbook
           </p>
         </div>
       </div>
