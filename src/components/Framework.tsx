@@ -68,7 +68,7 @@ const Framework = () => {
             return (
               <Card key={index} className="p-8 text-center shadow-soft hover:shadow-medium transition-all duration-300 border-primary/10 hover:border-primary/20">
                 <div className="mb-6">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center mx-auto mb-4 transition-all duration-300">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
                   <Badge variant="secondary" className="mb-4">
