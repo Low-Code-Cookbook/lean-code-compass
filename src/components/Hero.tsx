@@ -42,20 +42,6 @@ const Hero = () => {
               </Button>
             </div>
           </div>
-          
-          <div className="text-center">
-            <p className="text-muted-foreground text-sm mb-4">
-              Join 500+ founders making smarter tech decisions
-            </p>
-            <div className="flex justify-center items-center gap-8 opacity-60">
-              <div className="text-xs font-medium">Trusted by founders at</div>
-              <div className="flex gap-6">
-                <div className="h-8 w-20 bg-muted rounded"></div>
-                <div className="h-8 w-20 bg-muted rounded"></div>
-                <div className="h-8 w-20 bg-muted rounded"></div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
