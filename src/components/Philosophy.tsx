@@ -10,9 +10,8 @@ const Philosophy = () => {
             The Hard Truth I Discovered
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-            "Code leads to code." Every solution I added created three new problems. 
-            Every tool demanded maintenance. I was building complexity, not solutions. 
-            That's when I realized the power wasn't in the perfect tech stack—it was in starting simple.
+            Code leads to code. Every solution creates three new problems. 
+            I learned this the expensive way—twice.
           </p>
         </div>
 
@@ -21,41 +20,39 @@ const Philosophy = () => {
             <h3 className="text-3xl font-playfair font-bold mb-6">What I Learned the Hard Way</h3>
             <div className="space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                In my first company, I delegated every tech decision to developers. We ended up with 
-                a Frankenstein stack that worked but was impossible to maintain or scale.
+                <strong>Company #1:</strong> I delegated every tech decision. We built a Frankenstein stack 
+                that worked but couldn't scale.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                In my second company, I went the opposite direction—custom everything. I thought building 
-                from scratch meant more control. Instead, I created a complexity monster that consumed 
-                all our resources.
+                <strong>Company #2:</strong> I went custom everything. More control meant more complexity. 
+                It consumed all our resources.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                That's when I developed this framework. Now, with AI as a guide, founders can make 
-                these decisions confidently without repeating my mistakes.
+                <strong>The framework:</strong> Born from these mistakes. Now AI helps founders avoid them.
               </p>
             </div>
           </div>
 
           <Card className="p-8 bg-background border border-border shadow-soft">
             <h4 className="text-xl font-playfair font-bold mb-4 text-primary">
-              The Mistakes That Taught Me
+              What I Learned
             </h4>
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Choosing the "best" tool instead of the right tool</span>
+                <span>Right tool beats best tool</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Building custom when simple solutions existed</span>
+                <span>Simple beats custom</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Planning for scale I didn't have (and might never need)</span>
+                <span>Current scale beats future scale</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-destructive rounded-full mt-2 flex-shrink-0"></div>
-                <span>Letting complexity creep in "just this once"</span>
+                <span>Complexity is debt</span>
               </li>
             </ul>
           </Card>
