@@ -105,7 +105,7 @@ const Framework = () => {
               return (
                 <Card key={index} className="p-8 shadow-soft hover:shadow-medium transition-all duration-300 border-primary/10 hover:border-primary/20">
                   <div className="mb-6">
-                    <div className="w-14 h-14 bg-gradient-primary rounded-xl flex items-center justify-center mb-4">
+                    <div className="w-14 h-14 bg-black rounded-xl flex items-center justify-center mb-4">
                       <Icon className="w-7 h-7 text-white" />
                     </div>
                   </div>
