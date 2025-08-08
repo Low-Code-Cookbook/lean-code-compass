@@ -111,12 +111,9 @@ const Framework = () => {
                   </div>
                   
                   <h3 className="text-2xl font-bold mb-4">{application.title}</h3>
-                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed">
                     {application.description}
                   </p>
-                  <Badge variant="outline" className="text-primary border-primary/30">
-                    {application.benefit}
-                  </Badge>
                 </Card>
               );
             })}
