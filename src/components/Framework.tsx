@@ -67,18 +67,6 @@ const Framework = () => {
           })}
         </div>
 
-        <div className="mt-16 text-center">
-          <Card className="p-8 max-w-4xl mx-auto bg-background border border-border shadow-soft">
-            <h3 className="text-2xl font-playfair font-bold mb-4">
-              Why This Framework Changed Everything
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              I used to make technology decisions based on features, hype, or what other companies were using. 
-              This simple scoring system forced me to think critically about each choice. The result? 
-              Simpler stacks, lower costs, and businesses that could actually scale without drowning in complexity.
-            </p>
-          </Card>
-        </div>
       </div>
     </section>
   );
