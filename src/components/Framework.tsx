@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Target, TrendingUp, Wrench } from "lucide-react";
+import { Target, TrendingUp, Wrench, Lightbulb, BarChart3 } from "lucide-react";
 
 const Framework = () => {
   const criteria = [
@@ -24,6 +24,21 @@ const Framework = () => {
       score: "1-5", 
       description: "How much code or technical expertise is required?",
       detail: "Lower scores mean less complexity and easier implementation."
+    }
+  ];
+
+  const applications = [
+    {
+      icon: Lightbulb,
+      title: "Plan a Low-Code Stack",
+      description: "Perfect for new and non-tech founders who need to plan a technology stack that meets their current needs without over-engineering.",
+      benefit: "Start simple, scale smart"
+    },
+    {
+      icon: BarChart3,
+      title: "Stack Evaluation",
+      description: "For founders with existing technology stacks who need a systematic way to score past decisions and plan for version 2.",
+      benefit: "Learn from the past, build better"
     }
   ];
 
@@ -65,6 +80,41 @@ const Framework = () => {
               </Card>
             );
           })}
+        </div>
+
+        {/* Applications Section */}
+        <div className="mt-24">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
+              Applications
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Three ways this framework can transform how you approach technology decisions.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {applications.map((application, index) => {
+              const Icon = application.icon;
+              return (
+                <Card key={index} className="p-8 shadow-soft hover:shadow-medium transition-all duration-300 border-primary/10 hover:border-primary/20">
+                  <div className="mb-6">
+                    <div className="w-14 h-14 bg-gradient-primary rounded-xl flex items-center justify-center mb-4">
+                      <Icon className="w-7 h-7 text-white" />
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-4">{application.title}</h3>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    {application.description}
+                  </p>
+                  <Badge variant="outline" className="text-primary border-primary/30">
+                    {application.benefit}
+                  </Badge>
+                </Card>
+              );
+            })}
+          </div>
         </div>
 
       </div>
