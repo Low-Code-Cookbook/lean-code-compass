@@ -123,6 +123,14 @@ const Framework = () => {
           </div>
         </div>
 
+        {/* Teaser Section */}
+        <div className="mt-24 text-center max-w-4xl mx-auto">
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            In the coming months we are launching a new newsletter format that uses this scoring for new tech, 
+            an AI agent that can be used in a Chat GPT mode to make more informed tech decisions.
+          </p>
+        </div>
+
       </div>
     </section>
   );
